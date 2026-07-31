@@ -1,0 +1,113 @@
+@media (max-width: 600px){
+    header {
+        height: 100px;
+        flex-direction: column;
+    }
+
+    #logo-ford{
+        height: 40%;
+    }
+
+    nav{
+        gap: 20px;
+    }
+
+    .links{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    main{
+        align-items: center;
+    }
+
+    #demonstracao{
+        flex-direction: column;
+    }
+
+    iframe{
+        width: 90%;
+    }
+    #textovideo{
+        width: 90%;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .textocarros{
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+    }
+
+    .textocarros2{
+        font-size: 12px;
+        margin-top: 0px;
+    }
+
+    #video1{
+        width: 90%;
+    }
+
+    #textovideo{
+        width: 90%;
+    }
+    #divmaincontato{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #formulario{
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .caixas{
+        width: 190px;
+    }
+
+    #inputform{
+    width: 210px;
+    }
+
+    #botaocontato{
+        margin-left: 0px;
+    }
+
+    .botao{
+        width: 160px;
+        margin-top: 15px;
+    }
+    
+    footer{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+
+    #Redes{
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+        margin-right: 18px;
+    }
+
+    .redessociais{
+        width: 20px;
+        height: 20px;
+    }
+
+    #logorodape{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 5px;
+    }
+
+    #copyriti{
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}

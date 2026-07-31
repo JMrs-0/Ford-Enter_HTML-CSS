@@ -1,0 +1,53 @@
+main{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+iframe{
+    width: 60%;
+    height: auto;
+    aspect-ratio: 1337 / 752;
+    margin-top: 10px;
+}
+
+#textovideo{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#demonstracao{
+    display: flex;
+    justify-content: space-around;
+}
+
+.textocarros{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #005cff;
+}
+
+.textocarros2{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 23px;
+}
+
+#butao{
+    display: block;
+    margin: 30px auto 0;
+    margin-bottom: 30px;
+    padding: 12px 45px;
+    background-color: #005cff; 
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.divbutao:hover{
+    transform: translateY(-15px);
+}

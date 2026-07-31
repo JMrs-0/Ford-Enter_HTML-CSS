@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/geral.css">
+    <link rel="stylesheet" href="css/main_contato.css">
+    <link rel="stylesheet" href="css/mediaQuery.css">
+</head>
+<body>
+    <header>
+        <img id="logo-ford" src="img/logo-ford-256.png" alt="logo-ford">
+        <nav class="navegacao">
+            <a class="links" href="index.html">Home</a>
+            <a class="links" href="lancamento.html">Lançamento</a>
+            <a class="links" href="contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main id="maincontato">
+        <div id="divmaincontato">
+            <img id="imgcontato" src="img/xls 2.2 diesel.jpg" alt="">
+            <form id="formulario" autocomplete="on">
+                <input placeholder="NOME*" name="Nome" class="caixas" type="text" required>
+                <input placeholder="E-MAIL*" name="email" class="caixas" type="text" required>
+                <input placeholder="TELEFONE*" name="telefone" class="caixas" type="text" required>
+                <select id="inputform" name="tipodecontato" class="caixas" required>
+                    <option value="disabled select">Tipo de Contato:</option>
+                    <option value="disabled selected">Elogio</option>
+                    <option value="disabled selected">Reclamação</option>
+                    <option value="disabled selected">Solicitação</option>
+                </select>
+                <textarea placeholder="MENSAGEM*" name="texto" class="caixas" required></textarea>
+                
+                <div id="botaocontato">
+                <button type="button" class="botao">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div id="Redes">
+            <p id="textorodape">Redes socias </p> <a href="https://www.facebook.com/FordBrasil/?locale=pt_BR"><img class="redessociais" src="img/facebook-50.png" alt="Facebook"></a> <a href="https://www.instagram.com/fordbrasil/"><img class="redessociais" src="img/instagram-logo-50.png" alt="instagram logo"></a> <a href="youtube.com/fordbrasil?reload=9&sttick=0"><img class="redessociais" src="img/youtube-squared-50.png" alt=""></a>
+        </div>
+
+        <p id="copyriti">
+            Copyright © 2022 Ford Motor Company
+        </p>
+
+        <div id="logorodape">
+            <img id="imgrodape" src="img/ford-96.png" alt="">
+        </div>
+    </footer>
+</body>
+</html>
